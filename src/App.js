@@ -5,6 +5,7 @@ import './App.css';
 import FirstComponent from './components/FirstComponent.js';
 import TemplateExpression from './components/TemplateExpression';
 import Events from './components/Events';
+import Soma from './components/Soma';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <FirstComponent />
       <TemplateExpression />
       <Events />
+      <Soma />
     </div>
     
   );
